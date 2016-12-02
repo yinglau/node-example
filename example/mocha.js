@@ -6,6 +6,7 @@
  * istanbul 测试覆盖率
  * (命令行使用)$ istanbul cover --hook-run-in-content node_modules/mocha/bin/_mocha  注意：mocha需要安装在项目里
  * api使用 node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha  注意：mocha, istanbul安装在项目里
+ * 把测试文件放在项目的 test 目录下
  */
 
 var fibonacci = function(n) {

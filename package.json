@@ -4,13 +4,14 @@
   "description": "my nodejs example",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
   },
   "author": "cloudying",
   "license": "ISC",
   "dependencies": {
     "benchmark": "^2.1.2",
     "cheerio": "^0.22.0",
+    "commander": "^2.9.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "react": "^15.4.1",
