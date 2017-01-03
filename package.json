@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
   },
+  "betterScripts": {
+
+  },
   "author": "cloudying",
   "license": "ISC",
   "dependencies": {
@@ -20,6 +23,7 @@
     "superagent": "^3.0.0"
   },
   "devDependencies": {
+    "express": "^4.14.0",
     "pm2": "^2.1.6"
   }
 }

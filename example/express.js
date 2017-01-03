@@ -5,7 +5,7 @@ var app = express();
 
 app.get('/', function(req, res) {
     res.writeHeader('200');
-    res.end('fuck u!');
+    res.end('asdfasdfsadf');
 });
 
 app.listen('3001', function() {
